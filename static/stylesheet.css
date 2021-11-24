@@ -1,0 +1,151 @@
+#login{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+.enter {
+	margin-right: 20px;
+	font-family: 'Noto Serif', serif;
+}
+
+h3{
+	font-size:1.5rem;
+	font-family: 'Playfair Display', serif;
+}
+
+h2{
+	font-size: 1.5rem;
+	font-family: 'Playfair Display', serif;
+}
+
+input[type="text"]
+{
+	font-family: 'Noto Serif',serif;
+    font-size:16px;
+}
+
+.submit {
+	background-color: #f05656;
+	height: 3rem;
+	font-size: 2rem;
+}
+.submit {
+	outline: none;
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5rem;
+	background-color:#FF6B6B; 
+}
+.submit:hover {
+	outline: none;
+	background-color:#ec4444;
+}
+.submit:active {
+	outline: none;
+	box-shadow: 1px 1px black;
+	transform: translateY(4px);
+  }
+
+body {
+	background-image: url(/static/images/bg4.jpg);
+   	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Tisa';
+}
+
+p {
+	font-size: 1.15rem;
+	font-weight: 500;
+}
+
+
+
+
+@media all and (max-width: 500px){
+	#home .row {
+		margin: auto 1rem;
+	}
+
+	#home .jumbotron h1 {
+		font-size: 3rem;
+		font-weight: 500;
+	}
+}
+
+@media all and (min-width: 600px) and (max-width: 767px){
+	#home .row {
+		margin: auto 8rem;
+	}
+}
+
+#home .row .card {
+	margin: auto 1.25rem;
+}
+
+.about {
+	padding: auto 5rem;
+}
+
+.text-monospace {
+	font-size: 1.5rem;
+}
+
+
+
+/*Navbar*/
+#navbarchange {
+	background-color: #3f51b5;
+	margin: 1rem 1rem;
+}
+
+#navbarchange .dropdown-menu {
+	background-color: #3f51b5;
+	border: none;
+}
+
+#navbarchange .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+	font-size: 1.35rem;
+	padding-right: 1.25rem;
+	padding-left: 1.5rem;
+}
+
+#navbarchange .navbar-nav .dropdown-item {
+	color: rgba(255,255,255,1);
+	font-size: 1.25rem;
+	padding-left: 2rem;
+}
+
+#navbarchange .navbar-brand {
+	font-size : 1.75rem;
+	font-weight: 500;
+	margin-right: 3rem;
+	margin-left: 1rem;
+}
+
+#navbarchange .navbar-nav a:hover{
+	font-weight: 600;
+	background-color: #3f51b5;
+}
+
+/*icon color*/
+i {
+	color: #9b0000;
+}
+
+
+label {
+	font-weight: 500;
+} 
+
+/*CSV file label*/
+#padRigProb {
+	padding-right: 0;
+}; 
